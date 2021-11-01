@@ -10,3 +10,14 @@ four = {"name":"GIT HUB", "progress":"20%"}
 skills["four"] = four
 print(skills["four"]["name"]+" progress is "+skills["four"]["progress"])
 
+# Simple Solution
+
+my_skills = {
+  'HTML': '80%',
+  'CSS': '70%',
+  'JS': '60%'
+}
+
+print(f"{list(my_skills)[0]} => {list(my_skills.values())[0]}")  # HTML => 80%
+print(f"{list(my_skills)[1]} => {list(my_skills.values())[1]}")  # CSS => 70%
+print(f"{list(my_skills)[2]} => {list(my_skills.values())[2]}")  # JS => 60%
